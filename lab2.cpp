@@ -10,7 +10,7 @@ int main()
     cout << "Input Fibonacci number index: ";
     cin >> n;
 
-    int fnum = 1, snum = 1, ans;
+    long long fnum = 1, snum = 1, ans;
 
     if (n == 0 || n == 1) cout << "F(" << n << ") = " << 1 << endl;
     else
